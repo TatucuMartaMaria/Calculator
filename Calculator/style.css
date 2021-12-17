@@ -1,0 +1,72 @@
+body{
+    background-color: #516277;
+    background-image: url("wallpaper_calculator.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container{
+    height: 490px;
+    width: 300px;
+    background: rgba(81, 98, 119, 0.4);
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    padding: 2% 1%;
+    border-radius: 12px;
+    border: 2px solid silver;
+}
+
+.display{
+    height: 20%;
+    width: 92%;
+    background-image: linear-gradient(to right ,black,#414d5b, black);
+    margin: 0 0 5% 0;
+    border-radius: 12px;
+    border: 2px solid silver;
+    color: lightsteelblue;
+    font-weight: bold;
+    word-wrap: break-word;
+    word-break: break-all;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#result{
+    font-size: x-large;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+    margin: 5% 0;
+}
+
+.wrapper > div:hover{
+    background: silver;
+}
+
+.wrapper > div{
+    background: #495666;
+    padding: 5%;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.wrapper > div > button{
+    background-image: url("metal.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-radius: 50%;
+    padding-bottom: 5%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #414d5b;
+}
